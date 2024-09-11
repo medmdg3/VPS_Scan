@@ -6,11 +6,19 @@
 git clone https://github.com/medmdg3/VPS_Scan.git
 cd VPS_Scan
 ```
-### 2. Dependancies:
-python 3.x 
+### 2. Requirements:
+Python 3.x
+### 3. Dependancies:
 easyocr
+
 Flask
-### 3.Run the tool:
+
+### 4. Install dependancies:
+```bash
+pip install easyocr
+pip install Flask
+```
+### 5.Run the tool:
 ```bash
 python web.py
 ```
